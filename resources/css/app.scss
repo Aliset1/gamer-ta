@@ -1,0 +1,52 @@
+
+
+@import 'bootstrap/scss/bootstrap';
+
+
+.logo {
+    width: 50px!important;
+    margin: 0;
+}
+
+.opcionesNav a{
+    text-decoration-line: underline!important;
+    text-decoration-style:solid !important;
+    text-decoration-color: #fff !important;
+    line-height: 20px !important;
+}
+.barra a {
+    color: #fff!important;
+}
+
+.barra {
+    position: fixed;
+    background-color: #312e2e!important;
+    padding: 2px!important;
+    margin: 0!important;
+}
+.slider img{
+    height: 400px !important;
+    object-fit:cover !important;
+}
+
+@media screen and (max-width: 768px) {
+    .slider img{
+        height: 500px !important;
+    }
+    .opcionesNav a{
+        text-decoration-line: none!important;
+        text-decoration-style:none !important;
+    }
+    .opcionesNav a:focus {
+        background-color: #010e1e!important;
+        display: block;
+        width: 100%;
+        margin: 2px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    .barra .btn {
+        margin-bottom: 20px !important;
+    }
+}
+
